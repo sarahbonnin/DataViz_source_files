@@ -72,3 +72,9 @@ ggplot(age_str_long %>% filter(Country=="India"), aes(x=Year, y=Population, fill
   scale_fill_brewer(palette="Set1") +
   ggtitle("Per-age group Indian population from 1950 to 2020")
 
+
+## Prep BCN stats file
+
+statsbcn <- read_csv("DataViz_source_files-main/files/stats_countries_barcelona_2013-2023.csv")
+
+
